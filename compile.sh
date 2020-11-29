@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 ARTIFACT=cloud-function-aws
-MAINCLASS=com.example.demo.DemoApplication
+MAINCLASS=com.myexample.serverless.GreetApplication
 VERSION=0.0.1-SNAPSHOT
 
 GREEN='\033[0;32m'
