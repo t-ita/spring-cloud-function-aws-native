@@ -17,4 +17,7 @@ https://github.com/spring-projects-experimental/spring-graalvm-native/tree/maste
 * 必要なファイル群を配置
 * コンパイルで利用する Script を追加
 
+## サンプルとなる関数を追加
+* 以前に作ったサンプルと同じモノを使う
+
 
