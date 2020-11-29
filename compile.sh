@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-ARTIFACT=cloud-function-aws
+ARTIFACT=spring-cloud-function-aws-native
 MAINCLASS=com.myexample.serverless.GreetApplication
 VERSION=0.0.1-SNAPSHOT
 
