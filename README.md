@@ -15,5 +15,6 @@ https://github.com/spring-projects-experimental/spring-graalvm-native/tree/maste
 ## pom.xml を編集
 * 上記サンプルと同じ記述にする（一部、要不要がわからないので）
 * 必要なファイル群を配置
+* コンパイルで利用する Script を追加
 
 
