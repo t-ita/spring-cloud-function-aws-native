@@ -12,7 +12,7 @@ RUN curl -s "https://get.sdkman.io" | bash; \
     sdk install maven
 
 # Native Image 構築に必要なライブラリをインストール
-RUN yum install -y gcc zlib-devel
+RUN yum install -y gcc zlib-devel libstdc++-static glibc-devel
 
 # 依存性を Docker Image にダウンロード
 COPY pom.xml /work/build/

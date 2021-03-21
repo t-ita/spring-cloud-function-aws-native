@@ -1,9 +1,11 @@
 package com.myexample.serverless.functions;
 
 import lombok.Data;
+import org.springframework.stereotype.Component;
 
 import java.util.function.Function;
 
+@Component
 public class Greet implements Function<Greet.Greeting, Greet.Greeting> {
 
     @Data

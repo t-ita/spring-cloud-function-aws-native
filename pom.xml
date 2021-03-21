@@ -85,6 +85,9 @@
                 <groupId>org.springframework.experimental</groupId>
                 <artifactId>spring-aot-maven-plugin</artifactId>
                 <version>0.9.0</version>
+                <configuration>
+                    <removeYamlSupport>true</removeYamlSupport>
+                </configuration>
                 <executions>
                     <execution>
                         <id>test-generate</id>
@@ -115,6 +118,9 @@
                         <configuration>
                             <!-- The native image build needs to know the entry point to your application -->
                             <mainClass>com.myexample.serverless.GreetApplication</mainClass>
+                            <buildArgs>
+                                --enable-http --enable-https
+                            </buildArgs>
                         </configuration>
                         <executions>
                             <execution>
